@@ -1,0 +1,96 @@
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weihnachten 3.0</title>
+    
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="topHeader" class="Header">
+  <h1>Weihnachtswichteln</h1>
+  <div class="row">
+    <p style="text-align: left" class="col-xs-2">Gruppenname:</p>
+    <input id="inputGruppenname" class="col-xs-8" placeholder="Name der Wichtelgruppe"></input>
+  </div>
+</div>
+
+<div id="navigation">
+  <div id="navigationMenu" class="row">
+   <div class="col-xs-8">
+    <button class="btn btn-default btn-lg myButtons" id="hilfeButton">
+       Hilfe anzeigen
+    </button>
+    <button class="btn btn-default btn-lg myButtons" id="optionenButton">
+      Optionen anzeigen
+    </button>
+   </div>
+  </div>
+  
+    <div id="optionenMenu">
+      <div>
+        <p>
+          <p class="row"></label><input id="optionenMehrfachschenkung" type="checkbox"></input> Es soll möglich sein, dass ein Wichtler mehrere Geschenke an die gleiche Person schenkt.</label></p>
+          <p class="row"></label><input id="optionenSelbstgeschenk" type="checkbox"></input> Es soll möglich sein, dass ein Wichtler sich selbst ein Geschenk macht.</label></p>
+          <p class="row"></label><input id="optionenAnzeigeMitschenker" type="checkbox" checked></input> Die Schenker sollen wissen, wer ihre Schenkpartner sind.</label></p>
+      </p>
+      </div>
+    </div>
+    <p id="navigationText"></p>
+</div>  
+  
+  
+  <div id="namen">
+    <button class="btn btn-default btn-lg myButtons " id="namenButtonHinzu">
+      Wichtler hinzufügen
+    </button>
+    <button class="btn btn-default btn-lg myButtons " id="namenButtonEntf">
+      Wichtler entfernen
+    </button>
+    <div id="namenAnzeige"></div>
+  </div>
+  
+  <div id="wichtelMatrix">
+    <button class="btn btn-default btn-lg myButtons" id="matrixButton">
+      Wichtel Matrix
+    </button>
+    <div id="matrixAnzeige"></div>
+  </div>
+
+  <div id="auswertung">
+      <button class="btn btn-default btn-lg myButtons" id="auswertungButton">
+        Test Zuteilung
+      </button>
+	  <button class="btn btn-danger btn-lg myButtons" id="auswertungRichtigButton">
+	    ECHTE Zuteilung
+	  </button>
+      <p id="auswertungText"></p>
+      
+  </div>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.js'></script>
+  <script src='js/sjcl.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+  <script src="js/index.js"></script>
+
+</body>
+</html>
+<!--
+<div class="row">
+  <p class="col-xs-2">Name: </p>
+  <p class="col-xs-3">Schenkt:</p>
+  <p class="col-xs-3">Wird beschenkt durch:</p>
+</div> 
+
+<div class="row">
+  <p class="col-xs-2">'+nameArray[i][0]+' </p>
+  <p class="col-xs-3">'+nameArray[i][4][j]+'</p>
+  <p class="col-xs-3">Wird beschenkt durch:</p>
+</div> 
+       <div class="row">
+        <p class="col-xs-2">Name:</p>
+        <textarea rows="1" class="col-xs-8 mytextarea"></textarea>
+       </div>-->
