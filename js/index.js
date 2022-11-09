@@ -261,8 +261,7 @@ function assignmentWichtler(test) {
 			  nameArray[i][6] = $("#inputGruppenname").val();
 			  
 			  var newDate = new Date();
-			  //var dateString = newDate.getDate()+"."+newDate.getUTCMonth()+"."+newDate.getUTCFullYear();
-        var dateString = newDate.getDate();
+			  var dateString = newDate.getDate()()+"."+(newDate.getUTCMonth()+1)+"."+newDate.getUTCFullYear();
 			  var timeString = newDate.getHours()+":"+("0" + newDate.getUTCMinutes()).slice(-2);
 		
 			  nameArray[i][7] = dateString;
