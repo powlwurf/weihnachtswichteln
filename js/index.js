@@ -267,7 +267,7 @@ function assignmentWichtler(test) {
 		
 			  nameArray[i][7] = dateString;
 			  nameArray[i][8] = timeString;
-        console.log("datum: ", nameArray[i][7]);
+        console.log("datum11: ", nameArray[i][7]);
         console.log("zeit: ", nameArray[i][8]);
 		  }
                                     
