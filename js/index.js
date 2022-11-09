@@ -313,8 +313,7 @@ function assignmentWichtler(test) {
 		    var binaryString = pako.deflate(JSON.stringify(nameArray[i]), { to: 'string' });
 		    var encodeduri = encodeURIComponent(binaryString);
 		 
-		    var url="http://www.powlwurf.com/web/weihnachtswichteln/zuteilung.html?";
-                    //var url="http://localhost:8383/Weihnachtswichteln/zuteilung.html?"; 
+		    var url="https://powlwurf.github.io/weihnachtswichteln/zuteilung.html?"; 
 
 		    
 		    url +=encodeduri;
