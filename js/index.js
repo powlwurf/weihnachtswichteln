@@ -261,12 +261,13 @@ function assignmentWichtler(test) {
 			  nameArray[i][6] = $("#inputGruppenname").val();
 			  
 			  var newDate = new Date();
-			  var dateString = newDate.getDate()()+"."+(newDate.getUTCMonth()+1)+"."+newDate.getUTCFullYear();
+        var myMonth = newDate.getUTCMonth() +1;
+			  var dateString = newDate.getDate()()+"."+myMonth+"."+newDate.getUTCFullYear();
 			  var timeString = newDate.getHours()+":"+("0" + newDate.getUTCMinutes()).slice(-2);
 		
 			  nameArray[i][7] = dateString;
 			  nameArray[i][8] = timeString;
-        console.log("datum11: ", nameArray[i][7]);
+        console.log("datum1122: ", nameArray[i][7]);
         console.log("zeit: ", nameArray[i][8]);
 		  }
                                     
