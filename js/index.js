@@ -262,7 +262,7 @@ function assignmentWichtler(test) {
 			  
 			  var newDate = new Date();
         var myMonth = newDate.getUTCMonth() +1;
-			  var dateString = newDate.getDate()()+"."+myMonth+"."+newDate.getUTCFullYear();
+			  var dateString = newDate.getDate()+"."+myMonth+"."+newDate.getUTCFullYear();
 			  var timeString = newDate.getHours()+":"+("0" + newDate.getUTCMinutes()).slice(-2);
 		
 			  nameArray[i][7] = dateString;
